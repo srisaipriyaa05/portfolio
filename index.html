@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of backend engineering, data processing, and analytics projects.">
+  <title>Portfolio | Software Engineering & Data</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a2e; --text:#edf2ff; --muted:#aab6d3; --accent:#8bafff; --line:#273451; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:radial-gradient(ellipse at top right,#182a4d 0,transparent 45%),var(--bg); color:var(--text); }
+    main { width:min(960px,92vw); margin:0 auto; padding:64px 0 48px; }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.12em; text-transform:uppercase; font-size:.78rem; }
+    h1 { font-size:clamp(2.5rem,7vw,4.5rem); line-height:1.05; letter-spacing:-.05em; margin:.5rem 0 1rem; }
+    h2 { letter-spacing:-.025em; margin-top:0; }
+    p { color:var(--muted); }
+    .intro { max-width:680px; font-size:1.12rem; }
+    .chips { display:flex; flex-wrap:wrap; gap:9px; margin:24px 0 42px; }
+    .chip { border:1px solid var(--line); background:#10182a; border-radius:999px; padding:6px 12px; color:#dce6ff; font-size:.9rem; }
+    section { margin:44px 0; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(245px,1fr)); gap:16px; }
+    article { border:1px solid var(--line); background:rgba(18,26,46,.88); border-radius:16px; padding:22px; }
+    article h3 { margin:.2rem 0 .5rem; }
+    article p { margin-bottom:0; }
+    a { color:var(--accent); }
+    .contact { border-top:1px solid var(--line); padding-top:26px; }
+    footer { color:var(--muted); font-size:.9rem; margin-top:54px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Portfolio · Software Engineering & Data</div>
+      <h1>Building useful systems<br>with code and data.</h1>
+      <p class="intro">I’m an engineering student and software development intern interested in backend systems, data processing, SQL, and reliable APIs. I enjoy understanding how data moves through a system and turning that into practical solutions.</p>
+      <div class="chips" aria-label="Skills">
+        <span class="chip">Rust</span><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">REST APIs</span><span class="chip">Polars</span><span class="chip">ETL & Data Analysis</span><span class="chip">PostgreSQL</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Selected work</h2>
+      <div class="cards">
+        <article>
+          <h3>Workforce Management System</h3>
+          <p>A business application concept for streamlining employee records, attendance tracking, and payroll workflows.</p>
+        </article>
+        <article>
+          <h3>Cross-platform Product Comparison</h3>
+          <p>A web-app concept for bringing product information from multiple online retailers into one place to make comparisons easier.</p>
+        </article>
+        <article>
+          <h3>Data Processing & Reconciliation</h3>
+          <p>Exploring structured transaction data, validation rules, and reconciliation workflows using SQL and systems-oriented programming.</p>
+        </article>
+        <article>
+          <h3>Analytics & Machine Learning</h3>
+          <p>Hands-on data cleaning, exploratory analysis, feature engineering, and model experiments on a heavy-equipment sale-price dataset.</p>
+        </article>
+      </div>
+      <p><small>Project descriptions are concise summaries; add repository links and specific implementation details when you are ready to publish them.</small></p>
+    </section>
+
+    <section>
+      <h2>What I’m interested in</h2>
+      <p>Backend development, database design, ETL pipelines, data quality, and the engineering behind dependable financial and transaction systems.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: <!--email_off-->24f2007077@ds.study.iitm.ac.in<!--/email_off--></p>
+    </section>
+    <footer>© <span id="year">2026</span> · Portfolio</footer>
+  </main>
+</body>
+</html>
